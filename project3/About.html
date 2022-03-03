@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            background-image: url("bg1.jpg");
+            color: black;
+            font-family: 'Zen Antique Soft', serif;
+            margin: 0px;
+            padding: 0px;
+            flex-wrap: wrap;
+        }
+
+
+.left {
+            /* border: 2px solid red; */
+            display: inline;
+            position: absolute;
+            left: 33px;
+            top: 30px;
+        }
+
+        .left img {
+            width: 74px;
+        }
+
+        .left div {
+            text-align: center;
+            color: black;
+            font-size: 18px;
+        }
+
+        .Right {
+            border: 2px solid red;
+            /* display: block; */
+            width: 39%;
+            margin: 24px auto;
+            top: 30px;
+            display: flex;
+            padding: 23px 34px;
+
+        }
+
+        .navbar {
+            display: inline;
+            position: absolute;
+            right: 33px;
+            top: 15px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: black;
+
+        }
+
+        .navbar li a {
+            padding: 11px 23px;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: azure;
+            background-color: black;
+            border-radius: 7px;
+            border: 2px solid white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="logo.jpg" alt="">
+        <div>
+            Tashan's
+        </div>
+    </div>
+
+    <div class="right">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </div>
+</header>
+    
+</body>
+</html>
